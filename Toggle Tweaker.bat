@@ -3,7 +3,7 @@ SetLocal EnableDelayedExpansion
 
 
 :: define current version
-set CurV=3.5
+set CurV=4.0
 
 
 Title Windows 10 Toggle Tweaker v%CurV%
