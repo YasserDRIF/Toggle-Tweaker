@@ -3,7 +3,7 @@ SetLocal EnableDelayedExpansion
 
 
 :: define current version
-set CurV=4.0
+set CurV=3.5
 
 
 Title Windows 10 Toggle Tweaker v%CurV%
@@ -93,8 +93,6 @@ if "%errorlevel%"=="0" (goto Versioncheck) else ((Reg.exe add "HKLM\SOFTWARE\Tog
 
 
 
-
-
 cls
 echo  Checking For Updates ...
 echo.
@@ -102,7 +100,9 @@ echo.
 if exist "%~dp0\Updater.bat" ( del "%~dp0\Updater.bat" )
 
 call :Servercheck dl.dropbox.com MainMenu
-call :Download "https://dl.dropbox.com/s/buqhs674085kcap/TWV.txt?dl=1" TWV.TXT
+call :Download "https://drive.google.com/uc?export=download&id=0B_Y-lCJYwHfiNkU3VUJkYlh0aGc" TWV.TXT
+
+
 
 set content=
 for /F "delims=" %%i in (TWV.TXT) do set content=!content! %%i
@@ -5094,7 +5094,7 @@ echo  ^|  This is a completely new version of Toggle Tweaker rewritten from scra
 echo  ^|                                                                                                                   ^|
 echo  ^|    # The script Now can accept Mouse clicks as Input methode (You can change it from the Settings)                ^|
 echo  ^|                                                                                                                   ^|
-echo  ^|    # Almost all old options still exists and some are improved.                                                   ^|
+echo  ^|    # Almost all old options still exists and some are improved                                                    ^|
 echo  ^|                                                                                                                   ^|
 echo  ^|    # App removal section:Added New apps 3D Paint-3D View ~ Multi operations in one command ~ Apps Current Status  ^|
 echo  ^|                                                                                                                   ^|
