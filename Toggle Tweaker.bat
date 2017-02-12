@@ -5094,7 +5094,7 @@ echo  ^|  This is a completely new version of Toggle Tweaker rewritten from scra
 echo  ^|                                                                                                                   ^|
 echo  ^|    # The script Now can accept Mouse clicks as Input methode (You can change it from the Settings)                ^|
 echo  ^|                                                                                                                   ^|
-echo  ^|    # Almost all old options still exists and some are improved                                                    ^|
+echo  ^|    # Almost all old options still exists and some are improved.                                                   ^|
 echo  ^|                                                                                                                   ^|
 echo  ^|    # App removal section:Added New apps 3D Paint-3D View ~ Multi operations in one command ~ Apps Current Status  ^|
 echo  ^|                                                                                                                   ^|
