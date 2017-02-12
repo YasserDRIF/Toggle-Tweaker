@@ -5089,7 +5089,7 @@ echo  ^|       (_  _)/ )( \(  __) / _\ (  / )(  __)(  _ \    / __)/ )( \ / _\ ( 
 echo  ^|         )(  \ /\ / ) _) /    \ )  (  ) _)  )   /   ( (__ ) __ (/    \/    /( (_ \ ) _)   / (_/\(  O )( (_ \       ^| 
 echo  ^|        (__) (_/\_)(____)\_/\_/(__\_)(____)(__\_)    \___)\_)(_/\_/\_/\_)__) \___/(____)  \____/ \__/  \___/       ^|
 echo  ^|___________________________________________________________________________________________________________________^|
-echo  ^|                                                                                     Version : %CurV% (31/Jan/2016)   ^|
+echo  ^|                                                                                     Version : %CurV% (12/Feb/2016)   ^|
 echo  ^|  This is a completely new version of Toggle Tweaker rewritten from scratch, so a lot of things has changed :      ^|
 echo  ^|                                                                                                                   ^|
 echo  ^|    # The script Now can accept Mouse clicks as Input methode (You can change it from the Settings)                ^|
