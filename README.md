@@ -1,15 +1,15 @@
 ## Description
 
-So By Now we all know Windows 10 and all the new Things some are Nice and some are useless but there is no way remove them and stop them from using your resources,
+So, by now we all know Windows 10 and all the new things are nice and some are useless - but there is no way remove them and stop them from using our resources.
 So here where Toggle Tweaker comes in.
 Using this tool you can remove stuff like windows apps _ Cortana _ Edge
-and almost everything have a restore option
+and almost everything have a restore option!
 
 
 ## Usage
 
-After Downloading thsi Batch File you run it and then :
-* Click on the Title Bar and then Click Properties
+After Downloading this batch file you run it and then :
+* Click on the Title Bar and then click Properties
 * Disable QuickEdit Mode
 * (For better UX)in the Font tab Put the font to 'Consolas' and the size to '16' or whatever looks good on your screen
 
@@ -17,7 +17,7 @@ After Downloading thsi Batch File you run it and then :
 
 
 ## Notes
-* You Should Note that in the search The numbers shown are the buttons numbers that you should click from teh Main menu to get to that option
+* You should know that in the search the numbers shown are the buttons numbers that you should click from teh Main menu to get to that option
 
   For exemple If you have this line in the output and it's the option you are looking for
 	  Remove/restore Windows built-in apps from Users : 2=>1
@@ -35,6 +35,6 @@ After Downloading thsi Batch File you run it and then :
 
 ## Contributors
 
-Just wanted to note that I didn't write all these options myself
+Just wanted to note that I didn't write all these code myself,
 some options are using other scripts or tools either downloading them or writing and using them
 So Thanks to the people who created those.
