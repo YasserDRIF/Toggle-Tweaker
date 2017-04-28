@@ -3926,6 +3926,7 @@ AA42ABBA4421920F7628C941A385F213A298DCB6AE55D69309E18A79D40C6A9A
 4C475F1C920D93EFEF932C4B3734434D00FC02                          
 ) Do >>t.dat (Echo.%%b)
 certutil -decodehex t.dat batbox.ex_ >nul 2>&1
+::Cscript /b /e:vbs t.dat>batbox.ex_
  Del /f /q /a t.dat >nul 2>&1
  Expand -r batbox.ex_ >nul 2>&1
  Del /f /q /a batbox.ex_ >nul 2>&1
