@@ -3924,9 +3924,9 @@ ED2E7013682FBA7FDFA29DA11E7F57775D6B2000A7DBBACEB4051AEA4D077EE0
 AA42ABBA4421920F7628C941A385F213A298DCB6AE55D69309E18A79D40C6A9A
 47BC422C2356106B799D7F8AE16D345931A264F5C644232C9916990382AC085A
 4C475F1C920D93EFEF932C4B3734434D00FC02                          
-) Do >>t.dat (Echo.For b=1 To len^("%%b"^) Step 2
- ECHO WScript.StdOut.Write Chr^(Clng^("&H"^&Mid^("%%b",b,2^)^)^) : Next)
- Cscript /b /e:vbs t.dat>batbox.ex_
+) Do >>t.dat (Echo.%%b)
+certutil -decodehex t.dat batbox.ex_ >nul 2>&1
+::Cscript /b /e:vbs t.dat>batbox.ex_
  Del /f /q /a t.dat >nul 2>&1
  Expand -r batbox.ex_ >nul 2>&1
  Del /f /q /a batbox.ex_ >nul 2>&1
